@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>calculator</title>
+        <style type="text/css" media="screen">
+            body{
+                background-color: black;
+                font-size: 16px;
+                color: white;
+            }
+            .calculator{
+                border: 1px white solid;
+                width: 40%;
+                margin: 20px auto;
+                height: 400px;
+            }
+            .content{
+                margin: 5% 10%;
+            }
+            #calculator-name{
+                margin-bottom: 1%;
+            }
+            #user-input{
+                width: 100%;
+                background-color: #CDDC39;
+                height: 40px;
+                border-radius: 10px;
+            }
+            .button-box{
+                height: 243px;
+/*                border: 1px solid white;
+*/                margin: 10px 0px;
+            }
+            .numbers{
+                width: 69%;
+            }
+            .numbers, .symbols{
+                display: inline-block;
+                height: 250px;
+            }
+            .number, .symbol{
+                display: inline-block;
+                height: 50px;
+                line-height: 50px;
+                margin: 5px 5px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            .symbols{
+                width: 30%;
+            }
+            .symbol{
+                background-color: #FF3333;
+                width: 40%;
+            }
+            .number{
+                background-color: #007799;
+                width: 29%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="content">
+                <div id="calculator-name">我的计算器</div>
+                <div id="user-input"></div>
+                <div class="button-box">
+                    <div class="numbers">
+                            <div class="number">7</div>
+                            <div class="number">8</div>
+                            <div class="number">9</div>
+                            <div class="number">4</div>
+                            <div class="number">5</div>
+                            <div class="number">6</div>
+                            <div class="number">3</div>
+                            <div class="number">2</div>
+                            <div class="number">1</div>
+                            <div class="number">0</div>
+                            <div class="number">00</div>
+                            <div class="number">.</div>
+                        </div>
+                    <div class="symbols">
+                        <div class="symbol"><---</div> 
+                        <div class="symbol">C</div>
+                        <div class="symbol">/</div>
+                        <div class="symbol">%</div>
+                        <div class="symbol">+</div>
+                        <div class="symbol">-</div>
+                        <div class="symbol">*</div>
+                        <div class="symbol">=</div>
+                    </div>
+                </div>
+                <div>欢迎使用在线计算器</div>
+            </div>
+        </div>
+    </body>
+</html>
