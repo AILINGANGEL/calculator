@@ -40,6 +40,7 @@
                 padding-right: 2%;
                 letter-spacing: 2px;
                 font-size: 1.5em;
+                word-wrap: break-word;
             }
             .button-box{
                 height: 243px;
@@ -176,28 +177,28 @@
                 <div id="user-input"></div>
                 <div class="button-box">
                     <div class="numbers">
-                        <div class="number" onclick="number_func(7)">7</div>
-                        <div class="number" onclick="number_func(8)">8</div>
-                        <div class="number" onclick="number_func(9)">9</div>
-                        <div class="number" onclick="number_func(4)">4</div>
-                        <div class="number" onclick="number_func(5)">5</div>
-                        <div class="number" onclick="number_func(6)">6</div>
-                        <div class="number" onclick="number_func(3)">3</div>
-                        <div class="number" onclick="number_func(2)">2</div>
-                        <div class="number" onclick="number_func(1)">1</div>
-                        <div class="number" onclick="number_func(0)">0</div>
-                        <div class="number" onclick="number_func('00')">00</div>
-                        <div class="number" onclick="number_func('.')">.</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(7)">7</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(8)">8</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(9)">9</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(4)">4</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(5)">5</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(6)">6</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(3)">3</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(2)">2</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(1)">1</div>
+                        <div class="number" onselectstart="return false" onclick="number_func(0)">0</div>
+                        <div class="number" onselectstart="return false" onclick="number_func('00')">00</div>
+                        <div class="number" onselectstart="return false" onclick="number_func('.')">.</div>
                     </div>
                     <div class="symbols">
-                        <div class="symbol" onclick="operator('backspace')">DEL</div> 
-                        <div class="symbol" onclick="operator('clear')">C</div>
-                        <div class="symbol" onclick="operator('/')">/</div>
-                        <div class="symbol" onclick="operator('%')">%</div>
-                        <div class="symbol" onclick="operator('+')">+</div>
-                        <div class="symbol" onclick="operator('-')">-</div>
-                        <div class="symbol" onclick="operator('*')">*</div>
-                        <div class="symbol" onclick="operator('=')">=</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('backspace')">DEL</div> 
+                        <div class="symbol" onselectstart="return false" onclick="operator('clear')">C</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('/')">/</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('%')">%</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('+')">+</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('-')">-</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('*')">*</div>
+                        <div class="symbol" onselectstart="return false" onclick="operator('=')">=</div>
                     </div>
                 </div>
                 <div class="welcome">欢迎使用在线计算器</div>
