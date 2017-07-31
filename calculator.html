@@ -18,6 +18,10 @@
                 width: 40%;
                 margin: 20px auto;
                 height: 400px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             .content{
                 margin: 5% 10%;
@@ -78,7 +82,10 @@
                 width: 95%;
                 margin: 20px auto;
                 height: 1000px;
-                position: relative;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             .content{
                 margin: 1% 1%;
@@ -180,7 +187,7 @@
                         <div class="number" onclick="number_func('.')">.</div>
                     </div>
                     <div class="symbols">
-                        <div class="symbol" onclick="operator('backspace')"><--</div> 
+                        <div class="symbol" onclick="operator('backspace')">DEL</div> 
                         <div class="symbol" onclick="operator('clear')">C</div>
                         <div class="symbol" onclick="operator('/')">/</div>
                         <div class="symbol" onclick="operator('%')">%</div>
